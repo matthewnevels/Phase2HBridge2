@@ -1,0 +1,89 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAP-ALUM-220uF-200V-20%-EEU-ED2D221
+D CAP ALUM 220UF 200V 20% RADIAL
+K Capacitor
+F http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO
+D CAP CER 0.1UF 50V 10% X7R 0805
+K Capacitor
+F http://www.kemet.com/docfinder?Partnumber=C0805C104K5RACAUTO
+$ENDCMP
+#
+$CMP CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU
+D CAP CER 0.68UF 250V 10% X7R 2220
+K Capacitor
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+$CMP CAP-CER-470pF-630V-5%-NPO-1206-C1206C471JBGACTU
+D CAP CER 470PF 630V 5% NP0 1206
+K Capacitor
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/24/KEM_C1009_C0G_HV_SMD.pdf
+$ENDCMP
+#
+$CMP CONN-01X06-TerminalBlock-3.5mm-Side-1776275-6
+D TERM BLOCK 6POS SIDE ENT 3.5MM
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1776275&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP CONN-FASTON-0.250"-1217861-1
+D CONN QC TAB 0.250 SOLDER
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP DIODE-SCH-200V-3A-MBRS3200T3G
+D DIODE SCHOTTKY 200V 3A SMB
+K Diode Schottky
+F http://www.onsemi.com/pub_link/Collateral/MBRS3200T3-D.PDF
+$ENDCMP
+#
+$CMP DIODE-SCH-250V-40A-MBR40250
+D DIODE SCHOTTKY 250V 40A TO220-2
+K Diode Schottky
+F http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF
+$ENDCMP
+#
+$CMP DIODE-SCH-40V-750mA-BAT750
+D DIODE SCHOTTKY 40V 750MA SOT23-3
+K Diode Schottky
+F http://www.diodes.com/datasheets/BAT750.pdf
+$ENDCMP
+#
+$CMP FET-NCH-400V-26A-TO220-FDP26N40
+D MOSFET N-CH 400V 26A TO-220
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf
+$ENDCMP
+#
+$CMP IC-Driver-HalfBridge-FAN7393AMX
+D IC GATE DRIVER HALF BRIDGE 14SOIC
+K Gate Driver
+F https://www.fairchildsemi.com/datasheets/FA/FAN7393A.pdf
+$ENDCMP
+#
+$CMP MountingHole-#6-Conductive
+D Mounting Hole #6
+$ENDCMP
+#
+$CMP RES-0.0-.125W-0805-ERJ-6GEY0R00V
+D RES SMD 0.0 OHM JUMPER 1/8W 0805
+K Resistor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW
+$ENDCMP
+#
+$CMP RES-10k-.125W-1%-0805-ERJ-6ENF1002V
+D RES SMD 10K OHM 1% 1/8W 0805
+K Resistor
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW
+$ENDCMP
+#
+$CMP RES-4.7-.25W-1%-1206-CRCW12064R70FKEA
+D RES SMD 4.7 OHM 1% 1/4W 1206
+K Resistor
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+#End Doc Library
