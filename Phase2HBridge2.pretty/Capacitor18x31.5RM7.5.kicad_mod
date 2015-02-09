@@ -1,6 +1,6 @@
-(module Capacitor18x31.5RM7.5 (layer F.Cu) (tedit 54D6E6E9)
+(module Capacitor18x31.5RM7.5 (layer F.Cu) (tedit 54D94072)
   (descr "Capacitor, pol, cyl 16x25mm")
-  (fp_text reference Capacitor18x31.5RM7.5 (at 0 -10.16) (layer F.SilkS)
+  (fp_text reference Capacitor18x31.5RM7.5 (at 0 -10.16) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 10.16) (layer F.SilkS)
