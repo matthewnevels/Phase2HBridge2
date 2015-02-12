@@ -135,25 +135,6 @@ F 15 "XXXX-XX-XX" H 5800 3050 40  0001 L CNN "Verified"
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN-01X06-TerminalBlock-3.5mm-Side-1776275-6 J1
-U 1 1 54D9000B
-P 3500 1750
-F 0 "J1" H 3500 2100 40  0000 C CNN
-F 1 "CONN-01X06-TerminalBlock-3.5mm-Side-1776275-6" H 3500 2300 40  0001 L CNN
-F 2 "Phase2HBridge2:CON-TerminalBlock-6Pos-Side-3.5MM-1776275-6" H 3500 1050 40  0001 L CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1776275&DocType=Customer+Drawing&DocLang=English" H 3500 825 40  0001 L CNN
-F 4 "TE Connectivity" H 3500 950 40  0001 L CNN "MFG"
-F 5 "1776275-6" H 3500 900 40  0001 L CNN "MFGPN"
-F 6 "DigiKey" H 3500 700 40  0001 L CNN "CR1"
-F 7 "A98040-ND" H 3500 650 40  0001 L CNN "CR1PN"
-F 8 "-55°C:105°C" H 3500 525 40  0001 L CNN "Temp"
-F 9 "2015-02-09" H 3500 375 40  0001 L CNN "Created"
-F 10 "XXXX-XX-XX" H 3500 300 40  0001 L CNN "Verified"
-F 11 "CON-6P" V 3600 1750 40  0000 C CNN "Value.Display"
-	1    3500 1750
-	-1   0    0    1   
-$EndComp
-$Comp
 L DIODE-SCH-250V-40A-MBR40250 D1
 U 1 1 54D900B1
 P 5350 3650
@@ -837,7 +818,7 @@ Wire Wire Line
 Connection ~ 5750 2000
 Connection ~ 5450 2000
 Wire Wire Line
-	3700 2000 4800 2000
+	3600 2000 4800 2000
 Wire Wire Line
 	5800 5400 5800 5500
 Connection ~ 5800 5400
@@ -1057,7 +1038,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 4200 10200 5400
 Connection ~ 6850 5400
-Text Notes 4050 1100 0    40   ~ 0
+Text Notes 4050 900  0    40   ~ 0
 VDD = 10V to 20V
 Text Notes 5550 1100 0    40   ~ 0
 VPP = 90V
@@ -1143,33 +1124,25 @@ Connection ~ 10300 5000
 Connection ~ 1850 5000
 Text Notes 950  6400 0    40   ~ 0
 Mounting Holes
-Text Label 3750 2000 0    40   ~ 0
+Text Label 3650 2000 0    40   ~ 0
 VSS
-Text Label 3750 1900 0    40   ~ 0
+Text Label 3650 1900 0    40   ~ 0
 VDD
 Text Label 5550 2000 0    40   ~ 0
 GND
 Text Label 5550 1400 0    40   ~ 0
 90V
-Text Label 3750 1500 0    40   ~ 0
-VSS
-Text GLabel 4250 1600 2    40   Input ~ 0
-PWM_M+
-Text GLabel 4250 1700 2    40   Input ~ 0
-PWM_M-
 Text GLabel 4250 1800 2    40   Input ~ 0
-ENABLE
-Wire Wire Line
-	3700 1600 4250 1600
-Wire Wire Line
-	3700 1700 4250 1700
-Wire Wire Line
-	3700 1800 4250 1800
-Text Label 3750 1600 0    40   ~ 0
 PWM_M+
-Text Label 3750 1700 0    40   ~ 0
+Text GLabel 4250 1600 2    40   Input ~ 0
 PWM_M-
-Text Label 3750 1800 0    40   ~ 0
+Text GLabel 4250 1700 2    40   Input ~ 0
+ENABLE
+Text Label 3650 1800 0    40   ~ 0
+PWM_M+
+Text Label 3650 1600 0    40   ~ 0
+PWM_M-
+Text Label 3650 1700 0    40   ~ 0
 ENABLE
 Text GLabel 1550 3800 0    40   Input ~ 0
 PWM_M+
@@ -1225,11 +1198,7 @@ Text Label 9850 3800 0    40   ~ 0
 PWM_M-
 Text Label 1600 3800 0    40   ~ 0
 PWM_M+
-Wire Wire Line
-	4050 1500 4050 2100
 Connection ~ 4050 2000
-Wire Wire Line
-	3700 1500 4050 1500
 $Comp
 L VSS #PWR01
 U 1 1 54DADDDD
@@ -1288,12 +1257,12 @@ $EndComp
 $Comp
 L VDD #PWR06
 U 1 1 54DAE29D
-P 4150 1300
-F 0 "#PWR06" H 4150 1150 60  0001 C CNN
-F 1 "VDD" H 4150 1450 60  0000 C CNN
-F 2 "" H 4150 1300 60  0000 C CNN
-F 3 "" H 4150 1300 60  0000 C CNN
-	1    4150 1300
+P 4150 1100
+F 0 "#PWR06" H 4150 950 60  0001 C CNN
+F 1 "VDD" H 4150 1250 60  0000 C CNN
+F 2 "" H 4150 1100 60  0000 C CNN
+F 3 "" H 4150 1100 60  0000 C CNN
+	1    4150 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1337,9 +1306,9 @@ F 3 "" H 5800 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 1300 4150 1900
+	4150 1100 4150 1900
 Wire Wire Line
-	4150 1900 3700 1900
+	4150 1900 3600 1900
 $Comp
 L VPP #PWR010
 U 1 1 54DB1C6B
@@ -1382,12 +1351,12 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG013
 U 1 1 54DB25F7
-P 4400 1350
-F 0 "#FLG013" H 4400 1445 30  0001 C CNN
-F 1 "PWR_FLAG" H 4400 1530 30  0000 C CNN
-F 2 "" H 4400 1350 60  0000 C CNN
-F 3 "" H 4400 1350 60  0000 C CNN
-	1    4400 1350
+P 4400 1150
+F 0 "#FLG013" H 4400 1245 30  0001 C CNN
+F 1 "PWR_FLAG" H 4400 1330 30  0000 C CNN
+F 2 "" H 4400 1150 60  0000 C CNN
+F 3 "" H 4400 1150 60  0000 C CNN
+	1    4400 1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1405,9 +1374,7 @@ Wire Wire Line
 	6050 2050 6050 2000
 Connection ~ 6050 2000
 Wire Wire Line
-	4400 1350 4400 1400
-Wire Wire Line
-	4400 1400 4150 1400
+	3600 1400 4150 1400
 Connection ~ 4150 1400
 Wire Wire Line
 	4400 2050 4400 2000
@@ -2799,7 +2766,7 @@ D5 53 A6 4C 29 F0 F3 F3 BB EF EF EF 9F EB EB EB 5B 24 14 0A EB 58 2C D6 0B C1 1D
 38 D7 D4 D4 D8 48 24 12 1B 89 44 62 DF D0 D0 60 D9 DC DC CC 6B 6F 6F E7 28 95 4A 36 0C E0 3D 36 
 06 40 0A 85 A2 61 B1 58 ED 26 26 26 AD 3C 1E AF 59 20 10 D4 DA DB DB 57 D9 DA DA 3E B6 B6 B6 AE 
 76 72 72 2A 73 70 70 78 2C 10 08 64 A6 A6 A6 8A 17 2B ED F3 C7 FF 03 F8 55 1F 08 EF 2D 21 89 00 
-00 00 00 49 45 4E 44 AE 42 60 82 FF 
+00 00 00 49 45 4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 7350 7500 0    60   ~ 0
@@ -2807,7 +2774,7 @@ Text Notes 7350 7500 0    60   ~ 0
 Text Notes 10600 7650 0    60   ~ 0
 2.0\n
 Text Notes 8150 7650 0    60   ~ 0
-2015-02-09
+2015-02-11
 Text Notes 7000 6700 0    60   ~ 0
 ENABLE & PWM Signals are 5V TTL
 Text Notes 7000 6900 0    60   ~ 0
@@ -2816,4 +2783,112 @@ Text Notes 7000 7000 0    60   ~ 0
 High Side is driven with Bootstrap Cap, 100% Duty Cycle on High Side is not possible.
 Text Notes 7000 7100 0    60   ~ 0
 Drive circuit designed around 20kHz PWM signal
+$Comp
+L CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8 J1
+U 1 1 54DC2CFE
+P 3400 1650
+F 0 "J1" H 3400 2100 40  0000 C CNN
+F 1 "CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8" H 3400 2200 40  0001 L CNN
+F 2 "Phase2HBridge2:CON-TerminalBlock-8Pos-Side-3.5MM-1776275-8" H 3400 950 40  0001 L CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1776275&DocType=Customer+Drawing&DocLang=English" H 3400 725 40  0001 L CNN
+F 4 "TE Connectivity" H 3400 850 40  0001 L CNN "MFG"
+F 5 "1776275-8" H 3400 800 40  0001 L CNN "MFGPN"
+F 6 "DigiKey" H 3400 600 40  0001 L CNN "CR1"
+F 7 "A98041-ND" H 3400 550 40  0001 L CNN "CR1PN"
+F 8 "-55°C:105°C" H 3400 425 40  0001 L CNN "Temp"
+F 9 "2015-02-11" H 3400 275 40  0001 L CNN "Created"
+F 10 "XXXX-XX-XX" H 3400 200 40  0001 L CNN "Verified"
+F 11 "CON-8P" V 3500 1650 40  0000 C CNN "Value.Display"
+F 12 "TERM BLOCK 8POS SIDE ENT 3.5MM" H 4300 2900 60  0001 C CNN "Description"
+	1    3400 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2100 4050 2000
+Text GLabel 4250 1500 2    40   Input ~ 0
+PWM_FAN
+Wire Wire Line
+	3600 1500 4250 1500
+Text Label 3650 1500 0    40   ~ 0
+PWM_FAN
+Text Label 3650 1400 0    40   ~ 0
+VDD
+$Comp
+L BSS138 Q5
+U 1 1 54DC4EBA
+P 8800 1600
+F 0 "Q5" H 8800 1451 40  0000 R CNN
+F 1 "BSS138" H 8800 1750 40  0000 R CNN
+F 2 "SOT-23" H 8670 1702 29  0000 C CNN
+F 3 "" H 8800 1600 60  0000 C CNN
+	1    8800 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 1650 0    40   Input ~ 0
+PWM_FAN
+Wire Wire Line
+	8450 1650 8600 1650
+Text GLabel 4250 1300 2    40   Input ~ 0
+FAN-
+Wire Wire Line
+	4250 1300 3600 1300
+Text GLabel 8350 1200 0    40   Input ~ 0
+FAN-
+Wire Wire Line
+	8350 1200 8900 1200
+Wire Wire Line
+	8900 1200 8900 1400
+$Comp
+L VSS #PWR015
+U 1 1 54DC555A
+P 8900 2300
+F 0 "#PWR015" H 8900 2150 60  0001 C CNN
+F 1 "VSS" H 8900 2450 60  0000 C CNN
+F 2 "" H 8900 2300 60  0000 C CNN
+F 3 "" H 8900 2300 60  0000 C CNN
+	1    8900 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 1800 8900 2300
+$Comp
+L RES-10k-.125W-1%-0805-ERJ-6ENF1002V R10
+U 1 1 54DC569F
+P 8500 1950
+F 0 "R10" V 8400 1950 40  0000 C CNN
+F 1 "RES-10k-.125W-1%-0805-ERJ-6ENF1002V" H 8500 2300 40  0001 L CNN
+F 2 "Resistors_SMD:R_0805" H 8500 1500 40  0001 L CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW" H 8500 1250 40  0001 L CNN
+F 4 "10kΩ" V 8600 1950 40  0000 C CNN "Resistance"
+F 5 "Panasonic Electronic Components" H 8500 1350 40  0001 L CNN "MFG"
+F 6 "ERJ-6ENF1002V" H 8500 1300 40  0001 L CNN "MFGPN"
+F 7 "DigiKey" H 8500 1050 40  0001 L CNN "CR1"
+F 8 "P10.0KCCT-ND" H 8500 1000 40  0001 L CNN "CR1PN"
+F 9 "RES SMD 10K OHM 1% 1/8W 0805" H 8500 1550 40  0001 L CNN "Description"
+F 10 "-55°C:155°C" H 8500 950 40  0001 L CNN "Temp"
+F 11 "0.125W" V 8675 1950 40  0000 C CNN "Wattage"
+	1    8500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2150 8500 2200
+Wire Wire Line
+	8500 2200 8900 2200
+Connection ~ 8900 2200
+Wire Wire Line
+	8500 1750 8500 1650
+Connection ~ 8500 1650
+Text Label 3650 1300 0    40   ~ 0
+FAN-
+Wire Wire Line
+	4400 1150 4400 1200
+Wire Wire Line
+	4400 1200 4150 1200
+Connection ~ 4150 1200
+Wire Wire Line
+	4250 1600 3600 1600
+Wire Wire Line
+	3600 1800 4250 1800
+Wire Wire Line
+	3600 1700 4250 1700
 $EndSCHEMATC
