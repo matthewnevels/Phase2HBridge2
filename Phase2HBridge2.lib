@@ -273,14 +273,14 @@ DEF ~FET-NCH-400V-26A-TO220-FDP26N40 Q 0 0 Y Y 1 F N
 F0 "Q" 200 100 40 H V L CNN
 F1 "FET-NCH-400V-26A-TO220-FDP26N40" 0 350 40 H I L CNN
 F2 "Transistors_TO-220:TO-220_Neutral123_Vertical" 0 -450 40 H I L CNN
-F3 "https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf" 0 -500 40 H I L CNN
+F3 "http://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf" 0 -500 40 H I L CNN
 F4 "FDP26N40" 200 25 40 H V L CNN "Value.Display"
 F5 "400V" 200 -50 40 H V L CNN "Voltage"
 F6 "26A" 200 -125 40 H V L CNN "Current"
 F7 "Fairchild Semiconductor" 0 -550 40 H I L CNN "MFG"
-F8 "FAN7393AMX" 0 -600 40 H I L CNN "MFGPN"
+F8 "FDP26N40" 0 -600 40 H I L CNN "MFGPN"
 F9 "DigiKey" 0 -650 40 H I L CNN "CR1"
-F10 "FAN7393AMXCT-ND" 0 -700 40 H I L CNN "CR1PN"
+F10 "FDP26N40-ND" 0 -700 40 H I L CNN "CR1PN"
 F11 "2015-02-07" 0 -800 40 H I L CNN "Created"
 F12 "XXXX-XX-XX" 0 -850 40 H I L CNN "Verified"
 F13 "MOSFET_N-CH_400V_26A_TO-220" 0 -400 40 H I L CNN "Description"

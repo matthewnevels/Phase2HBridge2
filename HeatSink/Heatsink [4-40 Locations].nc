@@ -1,0 +1,20 @@
+( Made using CamBam - http://www.cambam.co.uk )
+( Untitled 3/3/2015 7:15:53 PM )
+( T0 : 0.125 )
+G20 G90 G64 G40
+G0 Z0.125
+( T0 : 0.125 )
+T0 M6
+( 4-40 Locations )
+G17
+M3 S1000
+G0 X0.25 Y0.6
+G98
+G81 X0.25 Y0.6 Z-0.0625 R0.125 F10.0
+G81 X0.75 Z-0.0625
+G81 X1.25 Z-0.0625
+G81 X1.75 Z-0.0625
+G80
+G0 Z0.125
+M5
+M30

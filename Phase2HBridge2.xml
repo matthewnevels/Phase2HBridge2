@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/matthew/Desktop/Parallels Shared Folders/Home/Dropbox/ShopFiles/WeightMachine/Phase2HBridge2/Phase2HBridge2.sch</source>
+    <date>Thu 12 Feb 2015 11:50:42 PM CST</date>
+    <tool>Eeschema 0.201502111101+5414~21~ubuntu14.04.1-product</tool>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>CAP-ALUM-220uF-200V-20%-EEU-ED2D221</value>
+      <footprint>Phase2HBridge2:Capacitor18x31.5RM7.5</footprint>
+      <datasheet>http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">220µF</field>
+        <field name="Voltage">200V</field>
+        <field name="Description">CAP ALUM 220UF 200V 20% RADIAL</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">EEU-ED2D221</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P13522-ND</field>
+        <field name="Temp">-25°C:105°C</field>
+        <field name="Tolerance">20%</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-ALUM-220uF-200V-20%-EEU-ED2D221"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D8FE3F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CAP-ALUM-220uF-200V-20%-EEU-ED2D221</value>
+      <footprint>Phase2HBridge2:Capacitor18x31.5RM7.5</footprint>
+      <datasheet>http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">220µF</field>
+        <field name="Voltage">200V</field>
+        <field name="Description">CAP ALUM 220UF 200V 20% RADIAL</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">EEU-ED2D221</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P13522-ND</field>
+        <field name="Temp">-25°C:105°C</field>
+        <field name="Tolerance">20%</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-ALUM-220uF-200V-20%-EEU-ED2D221"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D8FEAF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CAP-ALUM-220uF-200V-20%-EEU-ED2D221</value>
+      <footprint>Phase2HBridge2:Capacitor18x31.5RM7.5</footprint>
+      <datasheet>http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">220µF</field>
+        <field name="Voltage">200V</field>
+        <field name="Description">CAP ALUM 220UF 200V 20% RADIAL</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">EEU-ED2D221</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P13522-ND</field>
+        <field name="Temp">-25°C:105°C</field>
+        <field name="Tolerance">20%</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-ALUM-220uF-200V-20%-EEU-ED2D221"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D8FF0D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>CAP-CER-470pF-630V-5%-NPO-1206-C1206C471JBGACTU</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <datasheet>http://www.kemet.com/Lists/ProductCatalog/Attachments/24/KEM_C1009_C0G_HV_SMD.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">470pF</field>
+        <field name="Voltage">630V</field>
+        <field name="Tolerance">5%</field>
+        <field name="Description">CAP CER 470PF 630V 5% NP0 1206</field>
+        <field name="Temp Coefficient">C0G</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C1206C471JBGACTU</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-5545-1-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-CER-470pF-630V-5%-NPO-1206-C1206C471JBGACTU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D8FF86</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE-SCH-250V-40A-MBR40250</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBR40250</field>
+        <field name="Voltage">250V</field>
+        <field name="Current">40A</field>
+        <field name="Description">DIODE SCHOTTKY 250V 40A TO220-2</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBR40250G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBR40250GOS-ND</field>
+        <field name="Temp">-65°C:150°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-250V-40A-MBR40250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D900B1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE-SCH-250V-40A-MBR40250</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBR40250</field>
+        <field name="Voltage">250V</field>
+        <field name="Current">40A</field>
+        <field name="Description">DIODE SCHOTTKY 250V 40A TO220-2</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBR40250G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBR40250GOS-ND</field>
+        <field name="Temp">-65°C:150°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-250V-40A-MBR40250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90124</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE-SCH-250V-40A-MBR40250</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBR40250</field>
+        <field name="Voltage">250V</field>
+        <field name="Current">40A</field>
+        <field name="Description">DIODE SCHOTTKY 250V 40A TO220-2</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBR40250G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBR40250GOS-ND</field>
+        <field name="Temp">-65°C:150°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-250V-40A-MBR40250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90210</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE-SCH-250V-40A-MBR40250</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBR40250</field>
+        <field name="Voltage">250V</field>
+        <field name="Current">40A</field>
+        <field name="Description">DIODE SCHOTTKY 250V 40A TO220-2</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBR40250G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBR40250GOS-ND</field>
+        <field name="Temp">-65°C:150°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-250V-40A-MBR40250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D902B2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>DIODE-SCH-40V-750mA-BAT750</value>
+      <footprint>Transistors_SMD:sot23</footprint>
+      <datasheet>http://www.diodes.com/datasheets/BAT750.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9047D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>DIODE-SCH-40V-750mA-BAT750</value>
+      <footprint>Transistors_SMD:sot23</footprint>
+      <datasheet>http://www.diodes.com/datasheets/BAT750.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9056B</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE-SCH-40V-750mA-BAT750</value>
+      <footprint>Transistors_SMD:sot23</footprint>
+      <datasheet>http://www.diodes.com/datasheets/BAT750.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D905E0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE-SCH-40V-750mA-BAT750</value>
+      <footprint>Transistors_SMD:sot23</footprint>
+      <datasheet>http://www.diodes.com/datasheets/BAT750.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D906AC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FET-NCH-400V-26A-TO220-FDP26N40</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FDP26N40</field>
+        <field name="Voltage">400V</field>
+        <field name="Current">26A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Description">MOSFET_N-CH_400V_26A_TO-220</field>
+        <field name="Temp">-55°C:150°C</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="FET-NCH-400V-26A-TO220-FDP26N40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90729</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FET-NCH-400V-26A-TO220-FDP26N40</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FDP26N40</field>
+        <field name="Voltage">400V</field>
+        <field name="Current">26A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Description">MOSFET_N-CH_400V_26A_TO-220</field>
+        <field name="Temp">-55°C:150°C</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="FET-NCH-400V-26A-TO220-FDP26N40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D907E5</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FET-NCH-400V-26A-TO220-FDP26N40</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FDP26N40</field>
+        <field name="Voltage">400V</field>
+        <field name="Current">26A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Description">MOSFET_N-CH_400V_26A_TO-220</field>
+        <field name="Temp">-55°C:150°C</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="FET-NCH-400V-26A-TO220-FDP26N40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90986</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>FET-NCH-400V-26A-TO220-FDP26N40</value>
+      <footprint>Transistors_TO-220:TO-220_Neutral123_Vertical</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FDP26N40</field>
+        <field name="Voltage">400V</field>
+        <field name="Current">26A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Description">MOSFET_N-CH_400V_26A_TO-220</field>
+        <field name="Temp">-55°C:150°C</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="FET-NCH-400V-26A-TO220-FDP26N40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90A07</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>IC-Driver-HalfBridge-FAN7393AMX</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FA/FAN7393A.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FAN7393A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Description">IC GATE DVR HALF BRIDGE 14SOIC</field>
+        <field name="Temp">-40°C : 125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="IC-Driver-HalfBridge-FAN7393AMX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90E58</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>IC-Driver-HalfBridge-FAN7393AMX</value>
+      <footprint>Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/FA/FAN7393A.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">FAN7393A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Description">IC GATE DVR HALF BRIDGE 14SOIC</field>
+        <field name="Temp">-40°C : 125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="IC-Driver-HalfBridge-FAN7393AMX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90ED9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RES-4.7-.25W-1%-1206-CRCW12064R70FKEA</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Resistance">4.7Ω</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFGPN">CRCW12064R70FKEA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">541-4.70FFCT-ND</field>
+        <field name="Description">RES SMD 4.7 OHM 1% 1/4W 1206</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.25W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-4.7-.25W-1%-1206-CRCW12064R70FKEA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D90FBF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>RES-4.7-.25W-1%-1206-CRCW12064R70FKEA</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Resistance">4.7Ω</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFGPN">CRCW12064R70FKEA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">541-4.70FFCT-ND</field>
+        <field name="Description">RES SMD 4.7 OHM 1% 1/4W 1206</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.25W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-4.7-.25W-1%-1206-CRCW12064R70FKEA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D91066</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RES-4.7-.25W-1%-1206-CRCW12064R70FKEA</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Resistance">4.7Ω</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFGPN">CRCW12064R70FKEA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">541-4.70FFCT-ND</field>
+        <field name="Description">RES SMD 4.7 OHM 1% 1/4W 1206</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.25W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-4.7-.25W-1%-1206-CRCW12064R70FKEA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D910F1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>RES-4.7-.25W-1%-1206-CRCW12064R70FKEA</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Resistance">4.7Ω</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFGPN">CRCW12064R70FKEA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">541-4.70FFCT-ND</field>
+        <field name="Description">RES SMD 4.7 OHM 1% 1/4W 1206</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.25W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-4.7-.25W-1%-1206-CRCW12064R70FKEA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9118E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>RES-10k-.125W-1%-0805-ERJ-6ENF1002V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">10kΩ</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6ENF1002V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P10.0KCCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-10k-.125W-1%-0805-ERJ-6ENF1002V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D912D7</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>RES-10k-.125W-1%-0805-ERJ-6ENF1002V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">10kΩ</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6ENF1002V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P10.0KCCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-10k-.125W-1%-0805-ERJ-6ENF1002V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D91362</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RES-0.0-.125W-0805-ERJ-6GEY0R00V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">0Ω</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6GEY0R00V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P0.0ACT-ND</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-0.0-.125W-0805-ERJ-6GEY0R00V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D914AF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN-FASTON-0.250"-1217861-1</value>
+      <footprint>Phase2HBridge2:CON-FASTON-0.250-1217861-1</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1217861-1</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A100452CT-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CONN-FASTON-0.250&quot;-1217861-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9272F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN-FASTON-0.250"-1217861-1</value>
+      <footprint>Phase2HBridge2:CON-FASTON-0.250-1217861-1</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1217861-1</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A100452CT-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CONN-FASTON-0.250&quot;-1217861-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D927B4</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN-FASTON-0.250"-1217861-1</value>
+      <footprint>Phase2HBridge2:CON-FASTON-0.250-1217861-1</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1217861-1</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A100452CT-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CONN-FASTON-0.250&quot;-1217861-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D92824</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN-FASTON-0.250"-1217861-1</value>
+      <footprint>Phase2HBridge2:CON-FASTON-0.250-1217861-1</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1217861-1</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A100452CT-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CONN-FASTON-0.250&quot;-1217861-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D928B3</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole-#6-Conductive</value>
+      <footprint>Phase2HBridge2:MountingHole-#6-Conductive</footprint>
+      <fields>
+        <field name="Description">MountingHole-#6-Conductive</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="MountingHole-#6-Conductive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D945D6</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole-#6-Conductive</value>
+      <footprint>Phase2HBridge2:MountingHole-#6-Conductive</footprint>
+      <fields>
+        <field name="Description">MountingHole-#6-Conductive</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="MountingHole-#6-Conductive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9476A</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole-#6-Conductive</value>
+      <footprint>Phase2HBridge2:MountingHole-#6-Conductive</footprint>
+      <fields>
+        <field name="Description">MountingHole-#6-Conductive</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="MountingHole-#6-Conductive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D947DA</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole-#6-Conductive</value>
+      <footprint>Phase2HBridge2:MountingHole-#6-Conductive</footprint>
+      <fields>
+        <field name="Description">MountingHole-#6-Conductive</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="MountingHole-#6-Conductive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9484D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RES-0.0-.125W-0805-ERJ-6GEY0R00V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">0Ω</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6GEY0R00V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P0.0ACT-ND</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+        <field name="Populate">NO-POP</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-0.0-.125W-0805-ERJ-6GEY0R00V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D9ED07</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU</value>
+      <footprint>Capacitors_SMD:C_2220</footprint>
+      <datasheet>http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.68µF</field>
+        <field name="Voltage">250V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.68UF 250V 10% X7R 2220</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C2220C684KARACTU</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-4689-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA02F7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU</value>
+      <footprint>Capacitors_SMD:C_2220</footprint>
+      <datasheet>http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Capacitance">0.68µF</field>
+        <field name="Voltage">250V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.68UF 250V 10% X7R 2220</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C2220C684KARACTU</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-4689-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA03B2</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>DIODE-SCH-200V-3A-MBRS3200T3G</value>
+      <footprint>Diodes_SMD:Diode-SMB_Standard</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBRS3200T3-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBRS3200T3G</field>
+        <field name="Voltage">200V</field>
+        <field name="Current">3A</field>
+        <field name="Description">DIODE SCHOTTKY 200V 3A SMB</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBRS3200T3G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBRS3200T3GOSCT-ND</field>
+        <field name="Temp">-65°C:175°C</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-200V-3A-MBRS3200T3G"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA04A0</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>DIODE-SCH-200V-3A-MBRS3200T3G</value>
+      <footprint>Diodes_SMD:Diode-SMB_Standard</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBRS3200T3-D.PDF</datasheet>
+      <fields>
+        <field name="Value.Display">MBRS3200T3G</field>
+        <field name="Voltage">200V</field>
+        <field name="Current">3A</field>
+        <field name="Description">DIODE SCHOTTKY 200V 3A SMB</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBRS3200T3G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBRS3200T3GOSCT-ND</field>
+        <field name="Temp">-65°C:175°C</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-200V-3A-MBRS3200T3G"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA0552</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>RES-0.0-.125W-0805-ERJ-6GEY0R00V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">0Ω</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6GEY0R00V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P0.0ACT-ND</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+        <field name="Populate">NO-POP</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-0.0-.125W-0805-ERJ-6GEY0R00V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA131C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.kemet.com/docfinder?Partnumber=C0805C104K5RACAUTO</datasheet>
+      <fields>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C0805C104K5RACAUTO</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-6928-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA3F61</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.kemet.com/docfinder?Partnumber=C0805C104K5RACAUTO</datasheet>
+      <fields>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C0805C104K5RACAUTO</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-6928-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DA400C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8</value>
+      <footprint>Phase2HBridge2:CON-TerminalBlock-8Pos-Side-3.5MM-1776275-8</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1776275&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1776275-8</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A98041-ND</field>
+        <field name="Temp">-55°C:105°C</field>
+        <field name="Created">2015-02-11</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Value.Display">CON-8P</field>
+        <field name="Description">TERM BLOCK 8POS SIDE ENT 3.5MM</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DC2CFE</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS138</value>
+      <footprint>SOT-23</footprint>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DC4EBA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>RES-10k-.125W-1%-0805-ERJ-6ENF1002V</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW</datasheet>
+      <fields>
+        <field name="Resistance">10kΩ</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6ENF1002V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P10.0KCCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="RES-10k-.125W-1%-0805-ERJ-6ENF1002V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DC569F</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>DIODE-SCH-40V-750mA-BAT750</value>
+      <footprint>Transistors_SMD:sot23</footprint>
+      <datasheet>http://www.diodes.com/datasheets/BAT750.pdf</datasheet>
+      <fields>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <libsource lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DD859E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phase2HBridge2" part="CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU">
+      <description>CAP CER 0.68UF 250V 10% X7R 2220</description>
+      <docs>http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-CER-0.68uF-250V-10%-X7R-2220-C2220C684KARACTU</field>
+        <field name="Footprint">Capacitors_SMD:C_2220</field>
+        <field name="Datasheet">http://www.kemet.com/Lists/ProductCatalog/Attachments/53/KEM_C1002_X7R_SMD.pdf</field>
+        <field name="Capacitance">0.68µF</field>
+        <field name="Voltage">250V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.68UF 250V 10% X7R 2220</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C2220C684KARACTU</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-4689-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO">
+      <description>CAP CER 0.1UF 50V 10% X7R 0805</description>
+      <docs>http://www.kemet.com/docfinder?Partnumber=C0805C104K5RACAUTO</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-CER-0.1uF-50V-10%-X7R-0805-C0805C104K5RACAUTO</field>
+        <field name="Footprint">Capacitors_SMD:C_0805</field>
+        <field name="Datasheet">http://www.kemet.com/docfinder?Partnumber=C0805C104K5RACAUTO</field>
+        <field name="Capacitance">0.1µF</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Temp Coefficient">X7R</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C0805C104K5RACAUTO</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-6928-1-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="CAP-ALUM-220uF-200V-20%-EEU-ED2D221">
+      <description>CAP ALUM 220UF 200V 20% RADIAL</description>
+      <docs>http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-ALUM-220uF-200V-20%-EEU-ED2D221</field>
+        <field name="Footprint">Phase2HBridge2:Capacitor18x31.5RM7.5</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE123.pdf</field>
+        <field name="Capacitance">220µF</field>
+        <field name="Voltage">200V</field>
+        <field name="Description">CAP ALUM 220UF 200V 20% RADIAL</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">EEU-ED2D221</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P13522-ND</field>
+        <field name="Temp">-25°C:105°C</field>
+        <field name="Tolerance">20%</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="CAP-CER-470pF-630V-5%-NPO-1206-C1206C471JBGACTU">
+      <description>CAP CER 470PF 630V 5% NP0 1206</description>
+      <docs>http://www.kemet.com/Lists/ProductCatalog/Attachments/24/KEM_C1009_C0G_HV_SMD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-CER-470pF-630V-5%-NPO-1206-C1206C471JBGACTU</field>
+        <field name="Footprint">Capacitors_SMD:C_1206</field>
+        <field name="Datasheet">http://www.kemet.com/Lists/ProductCatalog/Attachments/24/KEM_C1009_C0G_HV_SMD.pdf</field>
+        <field name="Capacitance">470pF</field>
+        <field name="Voltage">630V</field>
+        <field name="Tolerance">5%</field>
+        <field name="Description">CAP CER 470PF 630V 5% NP0 1206</field>
+        <field name="Temp Coefficient">C0G</field>
+        <field name="Temp">-55°C:125°C</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFGPN">C1206C471JBGACTU</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">399-5545-1-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8">
+      <description>TERM BLOCK 8POS SIDE ENT 3.5MM</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1776275&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8</field>
+        <field name="Footprint">Phase2HBridge2:CON-TerminalBlock-8Pos-Side-3.5MM-1776275-8</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1776275&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1776275-8</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A98041-ND</field>
+        <field name="Temp">-55°C:105°C</field>
+        <field name="Created">2015-02-11</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Value.Display">CON-8P</field>
+        <field name="Description">TERM BLOCK 8POS SIDE ENT 3.5MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="input"/>
+        <pin num="8" name="P8" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="CONN-FASTON-0.250&quot;-1217861-1">
+      <description>CONN QC TAB 0.250 SOLDER</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN-FASTON-0.250"-1217861-1</field>
+        <field name="Footprint">Phase2HBridge2:CON-FASTON-0.250-1217861-1</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1217861&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFGPN">1217861-1</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">A100452CT-ND</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="DIODE-SCH-200V-3A-MBRS3200T3G">
+      <description>DIODE SCHOTTKY 200V 3A SMB</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBRS3200T3-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCH-200V-3A-MBRS3200T3G</field>
+        <field name="Footprint">Diodes_SMD:Diode-SMB_Standard</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBRS3200T3-D.PDF</field>
+        <field name="Value.Display">MBRS3200T3G</field>
+        <field name="Voltage">200V</field>
+        <field name="Current">3A</field>
+        <field name="Description">DIODE SCHOTTKY 200V 3A SMB</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBRS3200T3G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBRS3200T3GOSCT-ND</field>
+        <field name="Temp">-65°C:175°C</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="DIODE-SCH-250V-40A-MBR40250">
+      <description>DIODE SCHOTTKY 250V 40A TO220-2</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCH-250V-40A-MBR40250</field>
+        <field name="Footprint">Transistors_TO-220:TO-220_Neutral123_Vertical</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR40250-D.PDF</field>
+        <field name="Value.Display">MBR40250</field>
+        <field name="Voltage">250V</field>
+        <field name="Current">40A</field>
+        <field name="Description">DIODE SCHOTTKY 250V 40A TO220-2</field>
+        <field name="MFG">ON Semiconductor</field>
+        <field name="MFGPN">MBR40250G</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">MBR40250GOS-ND</field>
+        <field name="Temp">-65°C:150°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="DIODE-SCH-40V-750mA-BAT750">
+      <description>DIODE SCHOTTKY 40V 750MA SOT23-3</description>
+      <docs>http://www.diodes.com/datasheets/BAT750.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCH-40V-750mA-BAT750</field>
+        <field name="Footprint">Transistors_SMD:sot23</field>
+        <field name="Datasheet">http://www.diodes.com/datasheets/BAT750.pdf</field>
+        <field name="Value.Display">BAT750</field>
+        <field name="Voltage">40V</field>
+        <field name="Current">750mA</field>
+        <field name="Description">DIODE SCHOTTKY 40V 750MA SOT23-3</field>
+        <field name="MFG">Diodes Incorporated</field>
+        <field name="MFGPN">BAT750TA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">BAT750CT-ND</field>
+        <field name="Temp">125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="FET-NCH-400V-26A-TO220-FDP26N40">
+      <description>MOSFET N-CH 400V 26A TO-220</description>
+      <docs>https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FET-NCH-400V-26A-TO220-FDP26N40</field>
+        <field name="Footprint">Transistors_TO-220:TO-220_Neutral123_Vertical</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/FD/FDP26N40.pdf</field>
+        <field name="Value.Display">FDP26N40</field>
+        <field name="Voltage">400V</field>
+        <field name="Current">26A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+        <field name="Description">MOSFET_N-CH_400V_26A_TO-220</field>
+        <field name="Temp">-55°C:150°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="IC-Driver-HalfBridge-FAN7393AMX">
+      <description>IC GATE DRIVER HALF BRIDGE 14SOIC</description>
+      <docs>https://www.fairchildsemi.com/datasheets/FA/FAN7393A.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IC-Driver-HalfBridge-FAN7393AMX</field>
+        <field name="Footprint">Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/FA/FAN7393A.pdf</field>
+        <field name="Value.Display">FAN7393A</field>
+        <field name="MFG">Fairchild Semiconductor</field>
+        <field name="MFGPN">FAN7393AMX</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">FAN7393AMXCT-ND</field>
+        <field name="Description">IC GATE DVR HALF BRIDGE 14SOIC</field>
+        <field name="Temp">-40°C : 125°C</field>
+        <field name="Created">2015-02-07</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="~SD" type="input"/>
+        <pin num="3" name="Vss" type="power_in"/>
+        <pin num="4" name="DT" type="input"/>
+        <pin num="5" name="COM" type="power_in"/>
+        <pin num="6" name="LO" type="output"/>
+        <pin num="7" name="Vdd" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="Vs" type="input"/>
+        <pin num="12" name="HO" type="output"/>
+        <pin num="13" name="Vb" type="input"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="MountingHole-#6-Conductive">
+      <description>Mounting Hole #6</description>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-#6-Conductive</field>
+        <field name="Footprint">Phase2HBridge2:MountingHole-#6-Conductive</field>
+        <field name="Description">MountingHole-#6-Conductive</field>
+        <field name="Created">2015-02-09</field>
+        <field name="Verified">XXXX-XX-XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="RES-0.0-.125W-0805-ERJ-6GEY0R00V">
+      <description>RES SMD 0.0 OHM JUMPER 1/8W 0805</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-0.0-.125W-0805-ERJ-6GEY0R00V</field>
+        <field name="Footprint">Resistors_SMD:R_0805</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW</field>
+        <field name="Resistance">0Ω</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6GEY0R00V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P0.0ACT-ND</field>
+        <field name="Description">RES SMD 0.0 OHM JUMPER 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="RES-10k-.125W-1%-0805-ERJ-6ENF1002V">
+      <description>RES SMD 10K OHM 1% 1/8W 0805</description>
+      <docs>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-10k-.125W-1%-0805-ERJ-6ENF1002V</field>
+        <field name="Footprint">Resistors_SMD:R_0805</field>
+        <field name="Datasheet">http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW</field>
+        <field name="Resistance">10kΩ</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFGPN">ERJ-6ENF1002V</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">P10.0KCCT-ND</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.125W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phase2HBridge2" part="RES-4.7-.25W-1%-1206-CRCW12064R70FKEA">
+      <description>RES SMD 4.7 OHM 1% 1/4W 1206</description>
+      <docs>http://www.vishay.com/docs/20035/dcrcwe3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-4.7-.25W-1%-1206-CRCW12064R70FKEA</field>
+        <field name="Footprint">Resistors_SMD:R_1206</field>
+        <field name="Datasheet">http://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Resistance">4.7Ω</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFGPN">CRCW12064R70FKEA</field>
+        <field name="CR1">DigiKey</field>
+        <field name="CR1PN">541-4.70FFCT-ND</field>
+        <field name="Description">RES SMD 4.7 OHM 1% 1/4W 1206</field>
+        <field name="Temp">-55°C:155°C</field>
+        <field name="Wattage">0.25W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <description>BSS138, 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phase2HBridge2">
+      <uri>/home/matthew/Desktop/Parallels Shared Folders/Home/Dropbox/ShopFiles/WeightMachine/Phase2HBridge2/Phase2HBridge2.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/G_HI_M+">
+      <node ref="R1" pin="1"/>
+      <node ref="D5" pin="3"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="2" name="/Vb_M-">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="3" name="/Vb_M+">
+      <node ref="D9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="4" name="/DT_M-">
+      <node ref="U2" pin="4"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="5" name="PWM_FAN">
+      <node ref="R10" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="6" name="FAN-">
+      <node ref="D11" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="7" name="PWM_M-">
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="8" name="ENABLE">
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="9" name="PWM_M+">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="D11" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="11" name="/DT_M+">
+      <node ref="U1" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="13" name="/HO_M+">
+      <node ref="R1" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="18" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="22" name="VSS">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="23" name="/G_HI_M-">
+      <node ref="R3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="24" name="/HO_M-">
+      <node ref="R3" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="25" name="/G_LO_M-">
+      <node ref="R4" pin="2"/>
+      <node ref="D8" pin="3"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D4" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="30" name="/LO_M+">
+      <node ref="D6" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="31" name="/LO_M-">
+      <node ref="U2" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="32" name="/G_LO_M+">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D6" pin="3"/>
+    </net>
+    <net code="33" name="VPP">
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="34" name="/MOTOR-">
+      <node ref="J5" pin="1"/>
+      <node ref="D3" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="35" name="/MOTOR+">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+  </nets>
+</export>

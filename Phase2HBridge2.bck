@@ -29,6 +29,11 @@ D TERM BLOCK 6POS SIDE ENT 3.5MM
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1776275&DocType=Customer+Drawing&DocLang=English
 $ENDCMP
 #
+$CMP CONN-01X08-TerminalBlock-3.5mm-Side-1776275-8
+D TERM BLOCK 8POS SIDE ENT 3.5MM
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1776275&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
 $CMP CONN-FASTON-0.250"-1217861-1
 D CONN QC TAB 0.250 SOLDER
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217861&DocType=Customer+Drawing&DocLang=English
